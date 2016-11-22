@@ -1,0 +1,211 @@
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\bin\Debug\CarWorkshopSystem.exe.config
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.exe
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.xml
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.pdb
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\bin\Debug\CarWorkShopDB.mdf
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\bin\Debug\CarWorkShopDB_log.ldf
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\bin\Debug\CarWorkshopSystem.exe
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\bin\Debug\CarWorkshopSystem.pdb
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\bin\Debug\CarWorkshopSystem.xml
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.vbprojResolveAssemblyReference.cache
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.CustomerCarInsertForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.CustomerCarRetrieveForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.CustomerCarUpdateForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.CustomerInsertForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.CustomerRetrieveForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.CustomerUpdateForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.addInventory.resources
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.addSupplier.resources
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.DisposalReason.resources
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.Inventory.resources
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.TransferMessage.resources
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.updateInventory.resources
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.updateSupplier.resources
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.JobSheetBillingRecordInsertForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.JobSheetBillingRecordUpdateForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.JobSheetInsertForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.JobSheetRetrieveForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.JobSheetUpdateForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.LoginScreen.resources
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.LoodingScreen.resources
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.MainPageForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.PaymentDetailForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.PaymentHistoryRetrieveForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.PaymentInsertForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.PaymentRetrieveForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.ServiceCouponInsertForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.ServiceCouponRetrieveForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.ServiceCouponUpdateForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.StaffInsertForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.StaffRetrieveForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.StaffUpdateForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.WarrantyClaimDetailForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.WarrantyClaimInsertForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.WarrantyClaimRetrieveForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.Resources.resources
+D:\TARC\FYP Version\CarWorkshopSystem V36 done combine web application\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.vbproj.GenerateResource.Cache
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\bin\Debug\CarWorkShopDB.mdf
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\bin\Debug\CarWorkShopDB_log.ldf
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\bin\Debug\CarWorkshopSystem.exe.config
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\bin\Debug\CarWorkshopSystem.exe
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\bin\Debug\CarWorkshopSystem.pdb
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\bin\Debug\CarWorkshopSystem.xml
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.AppointmentRetrieveForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.AppointmentUpdateForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.CounterSalesManagement.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.CustomerCarInsertForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.CustomerCarRetrieveForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.CustomerCarUpdateForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.CustomerInsertForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.CustomerRetrieveForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.CustomerUpdateForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.addDisposableStock.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.DisposableStock.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.TransferBin.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.updateDisposableStock.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.addInventory.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.addSupplier.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.DisposalReason.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.Inventory.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.TransferDisposable.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.TransferMessage.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.updateInventory.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.updateSupplier.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.JobSheetBillingRecordInsertForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.JobSheetBillingRecordUpdateForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.JobSheetInsertForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.JobSheetRetrieveForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.JobSheetUpdateForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.LoginScreen.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.LoodingScreen.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.MainPageForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.PreorderControl.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.PaymentDetailForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.PaymentHistoryRetrieveForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.PaymentInsertForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.PaymentRetrieveForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.ReportJobSheetForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.ReportMainForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.ReportPaymentReceiptForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.ReportServiceCouponForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.MostPreOrderedItem.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.MostPurchasedProduct.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.TotalProductSalesSummary.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.ReviewControl.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.ServiceCouponInsertForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.ServiceCouponRetrieveForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.ServiceCouponUpdateForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.StaffInsertForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.StaffRetrieveForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.StaffUpdateForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.WarrantyClaimDetailForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.WarrantyClaimInsertForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.WarrantyClaimRetrieveForm.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.AddWorkshop.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.UpdateWorkshop.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.WorkshopLocation.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.Resources.resources
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.vbproj.GenerateResource.Cache
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.exe
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.xml
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.pdb
+D:\TARC\FYP Version\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.AppointmentReminderList.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\bin\Debug\CarWorkshopSystem.exe.config
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.exe
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.xml
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.pdb
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\bin\Debug\CarWorkShopDB.mdf
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\bin\Debug\CarWorkShopDB_log.ldf
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\bin\Debug\CarWorkshopSystem.exe
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\bin\Debug\CarWorkshopSystem.pdb
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\bin\Debug\CarWorkshopSystem.xml
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.AppointmentReminderList.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.AppointmentRetrieveForm.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.AppointmentUpdateForm.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.CounterSalesManagement.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.CustomerCarInsertForm.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.CustomerCarRetrieveForm.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.CustomerCarUpdateForm.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.CustomerInsertForm.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.CustomerRetrieveForm.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.CustomerUpdateForm.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.addDisposableStock.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.DisposableStock.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.TransferBin.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.updateDisposableStock.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.addInventory.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.addSupplier.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.DisposalReason.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.Inventory.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.TransferDisposable.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.TransferMessage.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.updateInventory.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.updateSupplier.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.JobSheetBillingRecordInsertForm.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.JobSheetBillingRecordUpdateForm.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.JobSheetInsertForm.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.JobSheetRetrieveForm.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.JobSheetUpdateForm.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.LoginScreen.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.LoodingScreen.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.MainPageForm.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.PreorderControl.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.PaymentDetailForm.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.PaymentHistoryRetrieveForm.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.PaymentInsertForm.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.PaymentRetrieveForm.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.ReportJobSheetForm.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.ReportMainForm.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.ReportPaymentReceiptForm.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.ReportServiceCouponForm.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.MostPreOrderedItem.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.MostPurchasedProduct.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.TotalProductSalesSummary.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.ReviewControl.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.ServiceCouponInsertForm.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.ServiceCouponRetrieveForm.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.ServiceCouponUpdateForm.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.StaffInsertForm.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.StaffRetrieveForm.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.StaffUpdateForm.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.WarrantyClaimDetailForm.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.WarrantyClaimInsertForm.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.WarrantyClaimRetrieveForm.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.AddWorkshop.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.UpdateWorkshop.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.WorkshopLocation.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.Resources.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\V1\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.vbproj.GenerateResource.Cache
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\CarWorkshopSystem\CarWorkshopSystem\bin\Debug\CarWorkshopSystem.exe.config
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.exe
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.xml
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.pdb
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.CounterSalesManagement.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.CustomerInsertForm.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.CustomerRetrieveForm.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.CustomerUpdateForm.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.addInventory.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.addSupplier.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.DisposalReason.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.Inventory.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.TransferDisposable.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.TransferMessage.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.updateInventory.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.updateSupplier.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.LoginScreen.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.LoodingScreen.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.MainPageForm.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.ReportMainForm.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.StaffInsertForm.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.StaffRetrieveForm.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.StaffUpdateForm.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.AddWorkshop.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.UpdateWorkshop.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.WorkshopLocation.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.Resources.resources
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\CarWorkshopSystem\CarWorkshopSystem\obj\Debug\CarWorkshopSystem.vbproj.GenerateResource.Cache
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\CarWorkshopSystem\CarWorkshopSystem\bin\Debug\CarWorkShopDB.mdf
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\CarWorkshopSystem\CarWorkshopSystem\bin\Debug\CarWorkShopDB_log.ldf
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\CarWorkshopSystem\CarWorkshopSystem\bin\Debug\CarWorkshopSystem.exe
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\CarWorkshopSystem\CarWorkshopSystem\bin\Debug\CarWorkshopSystem.pdb
+D:\TARC\Degree WRSD\Semester 5 Oct 2016\Agile assignment\CarWorkshopSystem\CarWorkshopSystem\bin\Debug\CarWorkshopSystem.xml
