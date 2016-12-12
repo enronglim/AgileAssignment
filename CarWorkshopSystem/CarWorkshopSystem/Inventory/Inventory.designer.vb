@@ -22,7 +22,15 @@ Partial Class Inventory
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.inventoryTab = New System.Windows.Forms.TabControl()
+        Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.bySupplierName = New System.Windows.Forms.Button()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.searchSupBox = New System.Windows.Forms.TextBox()
+        Me.supplierView = New System.Windows.Forms.DataGridView()
+        Me.supCloseBtn = New System.Windows.Forms.Button()
+        Me.removeSupBtn = New System.Windows.Forms.Button()
+        Me.updateSupBtn = New System.Windows.Forms.Button()
+        Me.addSupBtn = New System.Windows.Forms.Button()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.alertLabel = New System.Windows.Forms.Label()
@@ -37,32 +45,115 @@ Partial Class Inventory
         Me.transferBtn = New System.Windows.Forms.Button()
         Me.updateBtn = New System.Windows.Forms.Button()
         Me.addBtn = New System.Windows.Forms.Button()
-        Me.TabPage2 = New System.Windows.Forms.TabPage()
-        Me.bySupplierName = New System.Windows.Forms.Button()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.searchSupBox = New System.Windows.Forms.TextBox()
-        Me.supplierView = New System.Windows.Forms.DataGridView()
-        Me.supCloseBtn = New System.Windows.Forms.Button()
-        Me.removeSupBtn = New System.Windows.Forms.Button()
-        Me.updateSupBtn = New System.Windows.Forms.Button()
-        Me.addSupBtn = New System.Windows.Forms.Button()
-        Me.inventoryTab.SuspendLayout()
-        Me.TabPage1.SuspendLayout()
-        CType(Me.stockView, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.inventoryTab = New System.Windows.Forms.TabControl()
         Me.TabPage2.SuspendLayout()
         CType(Me.supplierView, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabPage1.SuspendLayout()
+        CType(Me.stockView, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.inventoryTab.SuspendLayout()
         Me.SuspendLayout()
         '
-        'inventoryTab
+        'TabPage2
         '
-        Me.inventoryTab.Controls.Add(Me.TabPage1)
-        Me.inventoryTab.Controls.Add(Me.TabPage2)
-        Me.inventoryTab.Location = New System.Drawing.Point(1, 10)
-        Me.inventoryTab.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.inventoryTab.Name = "inventoryTab"
-        Me.inventoryTab.SelectedIndex = 0
-        Me.inventoryTab.Size = New System.Drawing.Size(894, 440)
-        Me.inventoryTab.TabIndex = 12
+        Me.TabPage2.Controls.Add(Me.bySupplierName)
+        Me.TabPage2.Controls.Add(Me.Label2)
+        Me.TabPage2.Controls.Add(Me.searchSupBox)
+        Me.TabPage2.Controls.Add(Me.supplierView)
+        Me.TabPage2.Controls.Add(Me.supCloseBtn)
+        Me.TabPage2.Controls.Add(Me.removeSupBtn)
+        Me.TabPage2.Controls.Add(Me.updateSupBtn)
+        Me.TabPage2.Controls.Add(Me.addSupBtn)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage2.Margin = New System.Windows.Forms.Padding(2)
+        Me.TabPage2.Name = "TabPage2"
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(2)
+        Me.TabPage2.Size = New System.Drawing.Size(886, 414)
+        Me.TabPage2.TabIndex = 1
+        Me.TabPage2.Text = "Supplier Control"
+        Me.TabPage2.UseVisualStyleBackColor = True
+        '
+        'bySupplierName
+        '
+        Me.bySupplierName.Location = New System.Drawing.Point(65, 2)
+        Me.bySupplierName.Margin = New System.Windows.Forms.Padding(2)
+        Me.bySupplierName.Name = "bySupplierName"
+        Me.bySupplierName.Size = New System.Drawing.Size(106, 20)
+        Me.bySupplierName.TabIndex = 26
+        Me.bySupplierName.Text = "By Name"
+        Me.bySupplierName.UseVisualStyleBackColor = True
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Label2.Location = New System.Drawing.Point(62, 37)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(75, 24)
+        Me.Label2.TabIndex = 25
+        Me.Label2.Text = "Search:"
+        '
+        'searchSupBox
+        '
+        Me.searchSupBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.searchSupBox.Location = New System.Drawing.Point(137, 37)
+        Me.searchSupBox.Margin = New System.Windows.Forms.Padding(2)
+        Me.searchSupBox.Name = "searchSupBox"
+        Me.searchSupBox.Size = New System.Drawing.Size(328, 26)
+        Me.searchSupBox.TabIndex = 24
+        '
+        'supplierView
+        '
+        Me.supplierView.AllowUserToAddRows = False
+        Me.supplierView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.supplierView.Location = New System.Drawing.Point(65, 67)
+        Me.supplierView.Margin = New System.Windows.Forms.Padding(2)
+        Me.supplierView.MultiSelect = False
+        Me.supplierView.Name = "supplierView"
+        Me.supplierView.ReadOnly = True
+        Me.supplierView.RowTemplate.Height = 24
+        Me.supplierView.Size = New System.Drawing.Size(542, 314)
+        Me.supplierView.TabIndex = 23
+        '
+        'supCloseBtn
+        '
+        Me.supCloseBtn.Location = New System.Drawing.Point(518, 385)
+        Me.supCloseBtn.Margin = New System.Windows.Forms.Padding(2)
+        Me.supCloseBtn.Name = "supCloseBtn"
+        Me.supCloseBtn.Size = New System.Drawing.Size(89, 24)
+        Me.supCloseBtn.TabIndex = 22
+        Me.supCloseBtn.Text = "Close"
+        Me.supCloseBtn.UseVisualStyleBackColor = True
+        '
+        'removeSupBtn
+        '
+        Me.removeSupBtn.Location = New System.Drawing.Point(380, 385)
+        Me.removeSupBtn.Margin = New System.Windows.Forms.Padding(2)
+        Me.removeSupBtn.Name = "removeSupBtn"
+        Me.removeSupBtn.Size = New System.Drawing.Size(97, 24)
+        Me.removeSupBtn.TabIndex = 21
+        Me.removeSupBtn.Text = "Remove Supplier"
+        Me.removeSupBtn.UseVisualStyleBackColor = True
+        '
+        'updateSupBtn
+        '
+        Me.updateSupBtn.Location = New System.Drawing.Point(249, 385)
+        Me.updateSupBtn.Margin = New System.Windows.Forms.Padding(2)
+        Me.updateSupBtn.Name = "updateSupBtn"
+        Me.updateSupBtn.Size = New System.Drawing.Size(93, 24)
+        Me.updateSupBtn.TabIndex = 20
+        Me.updateSupBtn.Text = "Update Supplier"
+        Me.updateSupBtn.UseVisualStyleBackColor = True
+        '
+        'addSupBtn
+        '
+        Me.addSupBtn.Location = New System.Drawing.Point(115, 385)
+        Me.addSupBtn.Margin = New System.Windows.Forms.Padding(2)
+        Me.addSupBtn.Name = "addSupBtn"
+        Me.addSupBtn.Size = New System.Drawing.Size(95, 24)
+        Me.addSupBtn.TabIndex = 19
+        Me.addSupBtn.Text = "Add Supplier"
+        Me.addSupBtn.UseVisualStyleBackColor = True
         '
         'TabPage1
         '
@@ -80,9 +171,9 @@ Partial Class Inventory
         Me.TabPage1.Controls.Add(Me.updateBtn)
         Me.TabPage1.Controls.Add(Me.addBtn)
         Me.TabPage1.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TabPage1.Margin = New System.Windows.Forms.Padding(2)
         Me.TabPage1.Name = "TabPage1"
-        Me.TabPage1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(2)
         Me.TabPage1.Size = New System.Drawing.Size(886, 414)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Stock Control"
@@ -113,7 +204,7 @@ Partial Class Inventory
         'byCategory
         '
         Me.byCategory.Location = New System.Drawing.Point(273, 3)
-        Me.byCategory.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.byCategory.Margin = New System.Windows.Forms.Padding(2)
         Me.byCategory.Name = "byCategory"
         Me.byCategory.Size = New System.Drawing.Size(85, 20)
         Me.byCategory.TabIndex = 22
@@ -123,7 +214,7 @@ Partial Class Inventory
         'byQuantity
         '
         Me.byQuantity.Location = New System.Drawing.Point(184, 3)
-        Me.byQuantity.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.byQuantity.Margin = New System.Windows.Forms.Padding(2)
         Me.byQuantity.Name = "byQuantity"
         Me.byQuantity.Size = New System.Drawing.Size(85, 20)
         Me.byQuantity.TabIndex = 21
@@ -133,7 +224,7 @@ Partial Class Inventory
         'byDate
         '
         Me.byDate.Location = New System.Drawing.Point(94, 3)
-        Me.byDate.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.byDate.Margin = New System.Windows.Forms.Padding(2)
         Me.byDate.Name = "byDate"
         Me.byDate.Size = New System.Drawing.Size(85, 20)
         Me.byDate.TabIndex = 20
@@ -144,7 +235,7 @@ Partial Class Inventory
         '
         Me.byName.ForeColor = System.Drawing.Color.Black
         Me.byName.Location = New System.Drawing.Point(5, 3)
-        Me.byName.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.byName.Margin = New System.Windows.Forms.Padding(2)
         Me.byName.Name = "byName"
         Me.byName.Size = New System.Drawing.Size(85, 20)
         Me.byName.TabIndex = 19
@@ -166,7 +257,7 @@ Partial Class Inventory
         '
         Me.searchBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.searchBox.Location = New System.Drawing.Point(94, 32)
-        Me.searchBox.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.searchBox.Margin = New System.Windows.Forms.Padding(2)
         Me.searchBox.Name = "searchBox"
         Me.searchBox.Size = New System.Drawing.Size(284, 26)
         Me.searchBox.TabIndex = 17
@@ -176,7 +267,7 @@ Partial Class Inventory
         Me.stockView.AllowUserToAddRows = False
         Me.stockView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.stockView.Location = New System.Drawing.Point(-5, 90)
-        Me.stockView.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.stockView.Margin = New System.Windows.Forms.Padding(2)
         Me.stockView.MultiSelect = False
         Me.stockView.Name = "stockView"
         Me.stockView.ReadOnly = True
@@ -187,7 +278,7 @@ Partial Class Inventory
         'Button4
         '
         Me.Button4.Location = New System.Drawing.Point(599, 390)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(2)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(83, 24)
         Me.Button4.TabIndex = 15
@@ -196,18 +287,19 @@ Partial Class Inventory
         '
         'transferBtn
         '
-        Me.transferBtn.Location = New System.Drawing.Point(476, 390)
-        Me.transferBtn.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.transferBtn.Location = New System.Drawing.Point(237, 390)
+        Me.transferBtn.Margin = New System.Windows.Forms.Padding(2)
         Me.transferBtn.Name = "transferBtn"
         Me.transferBtn.Size = New System.Drawing.Size(84, 24)
         Me.transferBtn.TabIndex = 14
         Me.transferBtn.Text = "Transfer Stock"
         Me.transferBtn.UseVisualStyleBackColor = True
+        Me.transferBtn.Visible = False
         '
         'updateBtn
         '
-        Me.updateBtn.Location = New System.Drawing.Point(355, 390)
-        Me.updateBtn.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.updateBtn.Location = New System.Drawing.Point(482, 390)
+        Me.updateBtn.Margin = New System.Windows.Forms.Padding(2)
         Me.updateBtn.Name = "updateBtn"
         Me.updateBtn.Size = New System.Drawing.Size(93, 24)
         Me.updateBtn.TabIndex = 13
@@ -216,115 +308,24 @@ Partial Class Inventory
         '
         'addBtn
         '
-        Me.addBtn.Location = New System.Drawing.Point(225, 390)
-        Me.addBtn.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.addBtn.Location = New System.Drawing.Point(352, 390)
+        Me.addBtn.Margin = New System.Windows.Forms.Padding(2)
         Me.addBtn.Name = "addBtn"
         Me.addBtn.Size = New System.Drawing.Size(95, 24)
         Me.addBtn.TabIndex = 12
         Me.addBtn.Text = "Add Stock"
         Me.addBtn.UseVisualStyleBackColor = True
         '
-        'TabPage2
+        'inventoryTab
         '
-        Me.TabPage2.Controls.Add(Me.bySupplierName)
-        Me.TabPage2.Controls.Add(Me.Label2)
-        Me.TabPage2.Controls.Add(Me.searchSupBox)
-        Me.TabPage2.Controls.Add(Me.supplierView)
-        Me.TabPage2.Controls.Add(Me.supCloseBtn)
-        Me.TabPage2.Controls.Add(Me.removeSupBtn)
-        Me.TabPage2.Controls.Add(Me.updateSupBtn)
-        Me.TabPage2.Controls.Add(Me.addSupBtn)
-        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.TabPage2.Size = New System.Drawing.Size(886, 414)
-        Me.TabPage2.TabIndex = 1
-        Me.TabPage2.Text = "Supplier Control"
-        Me.TabPage2.UseVisualStyleBackColor = True
-        '
-        'bySupplierName
-        '
-        Me.bySupplierName.Location = New System.Drawing.Point(65, 2)
-        Me.bySupplierName.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.bySupplierName.Name = "bySupplierName"
-        Me.bySupplierName.Size = New System.Drawing.Size(106, 20)
-        Me.bySupplierName.TabIndex = 26
-        Me.bySupplierName.Text = "By Name"
-        Me.bySupplierName.UseVisualStyleBackColor = True
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.Label2.Location = New System.Drawing.Point(62, 37)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(75, 24)
-        Me.Label2.TabIndex = 25
-        Me.Label2.Text = "Search:"
-        '
-        'searchSupBox
-        '
-        Me.searchSupBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.searchSupBox.Location = New System.Drawing.Point(137, 37)
-        Me.searchSupBox.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.searchSupBox.Name = "searchSupBox"
-        Me.searchSupBox.Size = New System.Drawing.Size(328, 26)
-        Me.searchSupBox.TabIndex = 24
-        '
-        'supplierView
-        '
-        Me.supplierView.AllowUserToAddRows = False
-        Me.supplierView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.supplierView.Location = New System.Drawing.Point(65, 67)
-        Me.supplierView.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.supplierView.MultiSelect = False
-        Me.supplierView.Name = "supplierView"
-        Me.supplierView.ReadOnly = True
-        Me.supplierView.RowTemplate.Height = 24
-        Me.supplierView.Size = New System.Drawing.Size(542, 314)
-        Me.supplierView.TabIndex = 23
-        '
-        'supCloseBtn
-        '
-        Me.supCloseBtn.Location = New System.Drawing.Point(518, 385)
-        Me.supCloseBtn.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.supCloseBtn.Name = "supCloseBtn"
-        Me.supCloseBtn.Size = New System.Drawing.Size(89, 24)
-        Me.supCloseBtn.TabIndex = 22
-        Me.supCloseBtn.Text = "Close"
-        Me.supCloseBtn.UseVisualStyleBackColor = True
-        '
-        'removeSupBtn
-        '
-        Me.removeSupBtn.Location = New System.Drawing.Point(380, 385)
-        Me.removeSupBtn.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.removeSupBtn.Name = "removeSupBtn"
-        Me.removeSupBtn.Size = New System.Drawing.Size(97, 24)
-        Me.removeSupBtn.TabIndex = 21
-        Me.removeSupBtn.Text = "Remove Supplier"
-        Me.removeSupBtn.UseVisualStyleBackColor = True
-        '
-        'updateSupBtn
-        '
-        Me.updateSupBtn.Location = New System.Drawing.Point(249, 385)
-        Me.updateSupBtn.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.updateSupBtn.Name = "updateSupBtn"
-        Me.updateSupBtn.Size = New System.Drawing.Size(93, 24)
-        Me.updateSupBtn.TabIndex = 20
-        Me.updateSupBtn.Text = "Update Supplier"
-        Me.updateSupBtn.UseVisualStyleBackColor = True
-        '
-        'addSupBtn
-        '
-        Me.addSupBtn.Location = New System.Drawing.Point(115, 385)
-        Me.addSupBtn.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.addSupBtn.Name = "addSupBtn"
-        Me.addSupBtn.Size = New System.Drawing.Size(95, 24)
-        Me.addSupBtn.TabIndex = 19
-        Me.addSupBtn.Text = "Add Supplier"
-        Me.addSupBtn.UseVisualStyleBackColor = True
+        Me.inventoryTab.Controls.Add(Me.TabPage1)
+        Me.inventoryTab.Controls.Add(Me.TabPage2)
+        Me.inventoryTab.Location = New System.Drawing.Point(1, 11)
+        Me.inventoryTab.Margin = New System.Windows.Forms.Padding(2)
+        Me.inventoryTab.Name = "inventoryTab"
+        Me.inventoryTab.SelectedIndex = 0
+        Me.inventoryTab.Size = New System.Drawing.Size(894, 440)
+        Me.inventoryTab.TabIndex = 12
         '
         'Inventory
         '
@@ -333,34 +334,22 @@ Partial Class Inventory
         Me.ClientSize = New System.Drawing.Size(896, 448)
         Me.Controls.Add(Me.inventoryTab)
         Me.Location = New System.Drawing.Point(300, 100)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "Inventory"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.Manual
         Me.Text = "Inventory"
-        Me.inventoryTab.ResumeLayout(False)
-        Me.TabPage1.ResumeLayout(False)
-        Me.TabPage1.PerformLayout()
-        CType(Me.stockView, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPage2.ResumeLayout(False)
         Me.TabPage2.PerformLayout()
         CType(Me.supplierView, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabPage1.ResumeLayout(False)
+        Me.TabPage1.PerformLayout()
+        CType(Me.stockView, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.inventoryTab.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents inventoryTab As System.Windows.Forms.TabControl
-    Friend WithEvents TabPage1 As System.Windows.Forms.TabPage
-    Friend WithEvents byCategory As System.Windows.Forms.Button
-    Friend WithEvents byQuantity As System.Windows.Forms.Button
-    Friend WithEvents byDate As System.Windows.Forms.Button
-    Friend WithEvents byName As System.Windows.Forms.Button
-    Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents searchBox As System.Windows.Forms.TextBox
-    Friend WithEvents Button4 As System.Windows.Forms.Button
-    Friend WithEvents transferBtn As System.Windows.Forms.Button
-    Friend WithEvents updateBtn As System.Windows.Forms.Button
-    Friend WithEvents addBtn As System.Windows.Forms.Button
     Friend WithEvents TabPage2 As System.Windows.Forms.TabPage
     Friend WithEvents bySupplierName As System.Windows.Forms.Button
     Friend WithEvents Label2 As System.Windows.Forms.Label
@@ -370,8 +359,20 @@ Partial Class Inventory
     Friend WithEvents removeSupBtn As System.Windows.Forms.Button
     Friend WithEvents updateSupBtn As System.Windows.Forms.Button
     Friend WithEvents addSupBtn As System.Windows.Forms.Button
-    Friend WithEvents stockView As System.Windows.Forms.DataGridView
+    Friend WithEvents TabPage1 As System.Windows.Forms.TabPage
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents alertLabel As System.Windows.Forms.Label
+    Friend WithEvents byCategory As System.Windows.Forms.Button
+    Friend WithEvents byQuantity As System.Windows.Forms.Button
+    Friend WithEvents byDate As System.Windows.Forms.Button
+    Friend WithEvents byName As System.Windows.Forms.Button
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents searchBox As System.Windows.Forms.TextBox
+    Friend WithEvents stockView As System.Windows.Forms.DataGridView
+    Friend WithEvents Button4 As System.Windows.Forms.Button
+    Friend WithEvents transferBtn As System.Windows.Forms.Button
+    Friend WithEvents updateBtn As System.Windows.Forms.Button
+    Friend WithEvents addBtn As System.Windows.Forms.Button
+    Friend WithEvents inventoryTab As System.Windows.Forms.TabControl
 
 End Class

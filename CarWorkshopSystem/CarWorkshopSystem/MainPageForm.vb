@@ -72,9 +72,9 @@
         'AppointmentRetrieveForm.ShowDialog()
     End Sub
 
-    Private Sub btnCounterSales_Click(sender As Object, e As EventArgs) Handles btnCounterSales.Click
-        CounterSalesManagement.ShowDialog()
-    End Sub
+    'Private Sub btnCounterSales_Click(sender As Object, e As EventArgs) Handles btnCounterSales.Click
+    '    CounterSalesManagement.ShowDialog()
+    'End Sub
 
     Private Sub btnDisposanleStocl_Click(sender As Object, e As EventArgs) Handles btnDisposanleStocl.Click
         'DisposableStock.ShowDialog()
@@ -88,9 +88,9 @@
 
     End Sub
 
-    Private Sub Button14_Click(sender As Object, e As EventArgs) Handles Button14.Click
-        WorkshopLocation.ShowDialog()
-    End Sub
+    'Private Sub Button14_Click(sender As Object, e As EventArgs) Handles Button14.Click
+    '    WorkshopLocation.ShowDialog()
+    'End Sub
 
     Private Sub btnReview_Click(sender As Object, e As EventArgs) Handles btnReview.Click
         'ReviewControl.ShowDialog()

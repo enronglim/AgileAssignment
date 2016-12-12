@@ -97,12 +97,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>CarWorkshopDBDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="CounterSales\CounterSalesManagement.designer.vb">
-      <DependentUpon>CounterSalesManagement.vb</DependentUpon>
-    </Compile>
-    <Compile Include="CounterSales\CounterSalesManagement.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Customer\CustomerInsertForm.Designer.vb">
       <DependentUpon>CustomerInsertForm.vb</DependentUpon>
     </Compile>
@@ -235,29 +229,8 @@
     <Compile Include="Staff\StaffUpdateForm.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Workshop\AddWorkshop.designer.vb">
-      <DependentUpon>AddWorkshop.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Workshop\AddWorkshop.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Workshop\UpdateWorkshop.designer.vb">
-      <DependentUpon>UpdateWorkshop.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Workshop\UpdateWorkshop.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Workshop\WorkshopLocation.designer.vb">
-      <DependentUpon>WorkshopLocation.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Workshop\WorkshopLocation.vb">
-      <SubType>Form</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="CounterSales\CounterSalesManagement.resx">
-      <DependentUpon>CounterSalesManagement.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Customer\CustomerInsertForm.resx">
       <DependentUpon>CustomerInsertForm.vb</DependentUpon>
     </EmbeddedResource>
@@ -311,15 +284,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Staff\StaffUpdateForm.resx">
       <DependentUpon>StaffUpdateForm.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Workshop\AddWorkshop.resx">
-      <DependentUpon>AddWorkshop.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Workshop\UpdateWorkshop.resx">
-      <DependentUpon>UpdateWorkshop.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Workshop\WorkshopLocation.resx">
-      <DependentUpon>WorkshopLocation.vb</DependentUpon>
     </EmbeddedResource>
     <None Include="CarWorkshopDBDataSet.xsc">
       <DependentUpon>CarWorkshopDBDataSet.xsd</DependentUpon>

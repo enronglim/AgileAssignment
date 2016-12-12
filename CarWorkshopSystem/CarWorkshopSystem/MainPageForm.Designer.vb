@@ -168,6 +168,7 @@ Partial Class MainPageForm
         Me.btnPreOrder.Text = "Pre-Order"
         Me.btnPreOrder.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnPreOrder.UseVisualStyleBackColor = False
+        Me.btnPreOrder.Visible = False
         '
         'btnDisposanleStocl
         '
@@ -179,6 +180,7 @@ Partial Class MainPageForm
         Me.btnDisposanleStocl.Text = "Disposable Stock"
         Me.btnDisposanleStocl.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnDisposanleStocl.UseVisualStyleBackColor = False
+        Me.btnDisposanleStocl.Visible = False
         '
         'Label3
         '
@@ -239,6 +241,7 @@ Partial Class MainPageForm
         Me.btnReview.Text = "Review"
         Me.btnReview.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnReview.UseVisualStyleBackColor = False
+        Me.btnReview.Visible = False
         '
         'BtnReport
         '
@@ -250,6 +253,7 @@ Partial Class MainPageForm
         Me.BtnReport.Text = "Report View"
         Me.BtnReport.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.BtnReport.UseVisualStyleBackColor = False
+        Me.BtnReport.Visible = False
         '
         'Button14
         '
@@ -261,6 +265,7 @@ Partial Class MainPageForm
         Me.Button14.Text = "Workshop Profile"
         Me.Button14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button14.UseVisualStyleBackColor = False
+        Me.Button14.Visible = False
         '
         'btnStaff
         '
@@ -283,6 +288,7 @@ Partial Class MainPageForm
         Me.btnVehicle.Text = "Vehicle"
         Me.btnVehicle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnVehicle.UseVisualStyleBackColor = False
+        Me.btnVehicle.Visible = False
         '
         'Label4
         '
@@ -334,6 +340,7 @@ Partial Class MainPageForm
         Me.btnAppointment.Text = "Appointment"
         Me.btnAppointment.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnAppointment.UseVisualStyleBackColor = False
+        Me.btnAppointment.Visible = False
         '
         'btnServiceCoupon
         '
@@ -345,6 +352,7 @@ Partial Class MainPageForm
         Me.btnServiceCoupon.Text = "Service Coupon"
         Me.btnServiceCoupon.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnServiceCoupon.UseVisualStyleBackColor = False
+        Me.btnServiceCoupon.Visible = False
         '
         'btnCollection
         '
@@ -356,6 +364,7 @@ Partial Class MainPageForm
         Me.btnCollection.Text = "Collection"
         Me.btnCollection.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnCollection.UseVisualStyleBackColor = False
+        Me.btnCollection.Visible = False
         '
         'btnWarrantyClaim
         '
@@ -367,17 +376,19 @@ Partial Class MainPageForm
         Me.btnWarrantyClaim.Text = "Warranty Claim"
         Me.btnWarrantyClaim.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnWarrantyClaim.UseVisualStyleBackColor = False
+        Me.btnWarrantyClaim.Visible = False
         '
         'btnCounterSales
         '
         Me.btnCounterSales.BackColor = System.Drawing.Color.White
-        Me.btnCounterSales.Location = New System.Drawing.Point(0, 66)
+        Me.btnCounterSales.Location = New System.Drawing.Point(-1, 28)
         Me.btnCounterSales.Name = "btnCounterSales"
         Me.btnCounterSales.Size = New System.Drawing.Size(200, 37)
         Me.btnCounterSales.TabIndex = 2
         Me.btnCounterSales.Text = "Counter Sales"
         Me.btnCounterSales.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnCounterSales.UseVisualStyleBackColor = False
+        Me.btnCounterSales.Visible = False
         '
         'Label2
         '
@@ -393,13 +404,14 @@ Partial Class MainPageForm
         'btnJobSheet
         '
         Me.btnJobSheet.BackColor = System.Drawing.Color.White
-        Me.btnJobSheet.Location = New System.Drawing.Point(0, 27)
+        Me.btnJobSheet.Location = New System.Drawing.Point(-1, 66)
         Me.btnJobSheet.Name = "btnJobSheet"
         Me.btnJobSheet.Size = New System.Drawing.Size(200, 37)
         Me.btnJobSheet.TabIndex = 0
         Me.btnJobSheet.Text = "JobSheet"
         Me.btnJobSheet.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnJobSheet.UseVisualStyleBackColor = False
+        Me.btnJobSheet.Visible = False
         '
         'MainPageForm
         '
