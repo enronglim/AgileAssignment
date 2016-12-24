@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4B5AE156-8C12-41A8-A8CF-5424D9FD105D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>CarWorkshopSystem.My.MyApplication</StartupObject>
+    <RootNamespace>CarWorkshopSystem</RootNamespace>
+    <AssemblyName>CarWorkshopSystem</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>CarWorkshopSystem.xml</DocumentationFile>
+    <NoWarn>
+    </NoWarn>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>CarWorkshopSystem.xml</DocumentationFile>
+    <NoWarn>
+    </NoWarn>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>On</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="CarWorkshopDBDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CarWorkshopDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CounterSales\CounterSalesManagement.designer.vb">
+      <DependentUpon>CounterSalesManagement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CounterSales\CounterSalesManagement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\CustomerInsertForm.Designer.vb">
+      <DependentUpon>CustomerInsertForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\CustomerInsertForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\CustomerRetrieveForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\CustomerRetrieveForm.Designer.vb">
+      <DependentUpon>CustomerRetrieveForm.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\CustomerUpdateForm.Designer.vb">
+      <DependentUpon>CustomerUpdateForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\CustomerUpdateForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DB.designer.vb">
+      <DependentUpon>DB.dbml</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="DB.vb">
+      <DependentUpon>DB.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\addInventory.designer.vb">
+      <DependentUpon>addInventory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\addInventory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\addSupplier.designer.vb">
+      <DependentUpon>addSupplier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\addSupplier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\DisposalReason.designer.vb">
+      <DependentUpon>DisposalReason.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\DisposalReason.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\Inventory.designer.vb">
+      <DependentUpon>Inventory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Inventory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\TransferDisposable.designer.vb">
+      <DependentUpon>TransferDisposable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\TransferDisposable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\TransferMessage.designer.vb">
+      <DependentUpon>TransferMessage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\TransferMessage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\updateInventory.designer.vb">
+      <DependentUpon>updateInventory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\updateInventory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\updateSupplier.designer.vb">
+      <DependentUpon>updateSupplier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\updateSupplier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginScreen.Designer.vb">
+      <DependentUpon>LoginScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoodingScreen.Designer.vb">
+      <DependentUpon>LoodingScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoodingScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainPageForm.Designer.vb">
+      <DependentUpon>MainPageForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainPageForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Payment\PaymentDetailForm.Designer.vb">
+      <DependentUpon>PaymentDetailForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Payment\PaymentDetailForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payment\PaymentHistoryRetrieveForm.Designer.vb">
+      <DependentUpon>PaymentHistoryRetrieveForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Payment\PaymentHistoryRetrieveForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payment\PaymentInsertForm.Designer.vb">
+      <DependentUpon>PaymentInsertForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Payment\PaymentInsertForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payment\PaymentRetrieveForm.Designer.vb">
+      <DependentUpon>PaymentRetrieveForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Payment\PaymentRetrieveForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff\StaffInsertForm.Designer.vb">
+      <DependentUpon>StaffInsertForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Staff\StaffInsertForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff\StaffRetrieveForm.Designer.vb">
+      <DependentUpon>StaffRetrieveForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Staff\StaffRetrieveForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff\StaffUpdateForm.Designer.vb">
+      <DependentUpon>StaffUpdateForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Staff\StaffUpdateForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Workshop\AddWorkshop.designer.vb">
+      <DependentUpon>AddWorkshop.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Workshop\AddWorkshop.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Workshop\UpdateWorkshop.designer.vb">
+      <DependentUpon>UpdateWorkshop.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Workshop\UpdateWorkshop.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Workshop\WorkshopLocation.designer.vb">
+      <DependentUpon>WorkshopLocation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Workshop\WorkshopLocation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CounterSales\CounterSalesManagement.resx">
+      <DependentUpon>CounterSalesManagement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\CustomerInsertForm.resx">
+      <DependentUpon>CustomerInsertForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\CustomerRetrieveForm.resx">
+      <DependentUpon>CustomerRetrieveForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\CustomerUpdateForm.resx">
+      <DependentUpon>CustomerUpdateForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\addInventory.resx">
+      <DependentUpon>addInventory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\addSupplier.resx">
+      <DependentUpon>addSupplier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\DisposalReason.resx">
+      <DependentUpon>DisposalReason.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Inventory.resx">
+      <DependentUpon>Inventory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\TransferDisposable.resx">
+      <DependentUpon>TransferDisposable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\TransferMessage.resx">
+      <DependentUpon>TransferMessage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\updateInventory.resx">
+      <DependentUpon>updateInventory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\updateSupplier.resx">
+      <DependentUpon>updateSupplier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginScreen.resx">
+      <DependentUpon>LoginScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoodingScreen.resx">
+      <DependentUpon>LoodingScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainPageForm.resx">
+      <DependentUpon>MainPageForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payment\PaymentDetailForm.resx">
+      <DependentUpon>PaymentDetailForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payment\PaymentHistoryRetrieveForm.resx">
+      <DependentUpon>PaymentHistoryRetrieveForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payment\PaymentInsertForm.resx">
+      <DependentUpon>PaymentInsertForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payment\PaymentRetrieveForm.resx">
+      <DependentUpon>PaymentRetrieveForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff\StaffInsertForm.resx">
+      <DependentUpon>StaffInsertForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff\StaffRetrieveForm.resx">
+      <DependentUpon>StaffRetrieveForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff\StaffUpdateForm.resx">
+      <DependentUpon>StaffUpdateForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Workshop\AddWorkshop.resx">
+      <DependentUpon>AddWorkshop.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Workshop\UpdateWorkshop.resx">
+      <DependentUpon>UpdateWorkshop.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Workshop\WorkshopLocation.resx">
+      <DependentUpon>WorkshopLocation.vb</DependentUpon>
+    </EmbeddedResource>
+    <None Include="CarWorkshopDBDataSet.xsc">
+      <DependentUpon>CarWorkshopDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CarWorkshopDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CarWorkshopDBDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CarWorkshopDBDataSet.xss">
+      <DependentUpon>CarWorkshopDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DB.dbml.layout">
+      <DependentUpon>DB.dbml</DependentUpon>
+    </None>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DB.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CarWorkShopDB.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="CarWorkShopDB_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>CarWorkShopDB.mdf</DependentUpon>
+    </Content>
+    <None Include="Resources\Alert.ico" />
+    <None Include="Resources\ReportBackground.jpg" />
+    <None Include="Resources\images.jpg" />
+    <None Include="Resources\orange-banner.jpg" />
+    <None Include="Resources\car icon.ico" />
+    <None Include="Resources\Cancel.jpg" />
+    <None Include="Resources\Ok.jpg" />
+    <None Include="Resources\LoginBackground.jpg" />
+    <None Include="Resources\system icon.ico" />
+    <None Include="Resources\SplashScreen.jpg" />
+    <None Include="Resources\ServiceCoupon.jpg" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
