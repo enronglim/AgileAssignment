@@ -6,5 +6,3 @@ install:
   
 script: 
   - xbuild ./CarWorkshopSystem/CarWorkshopSystem.sln
-
-os: windows
