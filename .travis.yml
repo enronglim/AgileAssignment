@@ -4,3 +4,6 @@ solution: ./CarWorkshopSystem/CarWorkshopSystem.sln
 install:
   - sudo apt-get install nunit-console
   - nuget restore ./CarWorkshopSystem/CarWorkshopSystem.sln
+  
+script:
+  - xbuild ./src/yoursolution.sln
