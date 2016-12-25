@@ -1,8 +1,8 @@
 language: csharp
-solution: ./CarWorkshopSystem/CarWorkshopSystem.sln
+solution: "./CarWorkshopSystem/CarWorkshopSystem.sln"
 
 install:
-  - sudo apt-get install nunit-console
   - nuget restore ./CarWorkshopSystem/CarWorkshopSystem.sln
   
-script: build ./CarWorkshopSystem/CarWorkshopSystem.sln
+script: 
+  - xbuild ./CarWorkshopSystem/CarWorkshopSystem.sln
