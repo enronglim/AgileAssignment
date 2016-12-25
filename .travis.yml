@@ -6,4 +6,4 @@ install:
   - nuget restore ./CarWorkshopSystem/CarWorkshopSystem.sln
   
 script:
-  - xbuild ./src/yoursolution.sln
+  - xbuild ./CarWorkshopSystem/CarWorkshopSystem.sln
