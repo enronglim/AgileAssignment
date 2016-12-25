@@ -1,4 +1,4 @@
-language: csharp
+language: vb
 solution: "./CarWorkshopSystem/CarWorkshopSystem.sln"
 
 install:
