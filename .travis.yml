@@ -1,4 +1,4 @@
-language: vb
+language: csharp
 solution: "./CarWorkshopSystem/CarWorkshopSystem.sln"
 
 install:
@@ -6,3 +6,5 @@ install:
   
 script: 
   - xbuild ./CarWorkshopSystem/CarWorkshopSystem.sln
+
+os: windows
