@@ -5,5 +5,4 @@ install:
   - sudo apt-get install nunit-console
   - nuget restore ./CarWorkshopSystem/CarWorkshopSystem.sln
   
-script:
-  - xbuild ./CarWorkshopSystem/CarWorkshopSystem.sln
+script: .travis/build.sh
